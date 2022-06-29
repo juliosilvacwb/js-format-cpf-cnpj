@@ -13,7 +13,7 @@ Output:
 #### Typescript example:
 ```ts 
 import { formatCPF } from 'js-format-cpf'
-console.log(cpf.formatCPF("49075215029")
+console.log(formatCPF("49075215029")
 ```
 
 Output:

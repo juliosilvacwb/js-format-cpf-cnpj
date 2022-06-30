@@ -1,1 +1,1 @@
-export declare function formatCPF(CPF?: string): string | undefined;
+export declare function formatCPF(CPF: string): string;

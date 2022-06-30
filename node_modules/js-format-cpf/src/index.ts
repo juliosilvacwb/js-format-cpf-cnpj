@@ -1,4 +1,4 @@
-export function formatCPF(CPF?: string) {
+export function formatCPF(CPF: string):string {
     if (!CPF) return CPF;
     let digits = CPF.replace(/\D/g, "");
     if (digits.length !== 11) return CPF;

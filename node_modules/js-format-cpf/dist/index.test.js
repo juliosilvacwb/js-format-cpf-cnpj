@@ -15,6 +15,6 @@ describe('Tests for formatCPF', () => {
         expect((0, index_1.formatCPF)('10')).toBe('10');
     });
     test('should return undefined when param is undefined', () => {
-        expect((0, index_1.formatCPF)(undefined)).toBe(undefined);
+        expect((0, index_1.formatCPF)('')).toBe('');
     });
 });

@@ -1,7 +1,7 @@
 import { formatCNPJ } from "js-format-cnpj";
 import { formatCPF } from "js-format-cpf";
 
-export function formatCPForCNPJ(cpfOrCnpj?: string) {
+export function formatCPForCNPJ(cpfOrCnpj: string):string {
     if (!cpfOrCnpj) return cpfOrCnpj;
     let digits = cpfOrCnpj.replace(/\D/g, "");
     if (digits.length === 11) return formatCPF(cpfOrCnpj);

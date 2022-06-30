@@ -1,1 +1,1 @@
-export declare function formatCPForCNPJ(cpfOrCnpj?: string): string | undefined;
+export declare function formatCPForCNPJ(cpfOrCnpj: string): string;

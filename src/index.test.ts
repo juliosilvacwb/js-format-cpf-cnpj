@@ -19,7 +19,7 @@ describe('Tests for formatCPForCNPJ', () => {
     });
 
     test('should return undefined when param is undefined', () => {
-        expect(formatCPForCNPJ(undefined)).toBe(undefined);
+        expect(formatCPForCNPJ('')).toBe('');
     });
 
     test('should format CNPJ when receive only numbers', () => {
@@ -39,7 +39,7 @@ describe('Tests for formatCPForCNPJ', () => {
     });
 
     test('should return undefined when param is undefined', () => {
-        expect(formatCPForCNPJ(undefined)).toBe(undefined);
+        expect(formatCPForCNPJ('')).toBe('');
     });
     
 });

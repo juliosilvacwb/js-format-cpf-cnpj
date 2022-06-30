@@ -19,7 +19,7 @@ describe('Tests for formatCPF', () => {
     });
 
     test('should return undefined when param is undefined', () => {
-        expect(formatCPF(undefined)).toBe(undefined);
+        expect(formatCPF('')).toBe('');
     });
     
 });

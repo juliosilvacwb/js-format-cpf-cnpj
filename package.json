@@ -16,6 +16,14 @@
   ],
   "author": "Julio Silva",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliosilvacwb/js-format-cpf-cnpj.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juliosilvacwb/js-format-cpf-cnpj/issues"
+  },
+  "homepage": "https://github.com/juliosilvacwb/js-format-cpf-cnpj#readme",
   "devDependencies": {
     "@types/jest": "^28.1.3",
     "jest": "^28.1.2",
